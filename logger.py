@@ -33,7 +33,6 @@ def print_data():
             if data_first[i] == '\n' or i == len(data_first) - 1:
                 data_first_list.append(''.join(data_first[j:i+1]))
                 j = i
-                print('пыщь')
         print(' '.join(data_first_list))
 
 
